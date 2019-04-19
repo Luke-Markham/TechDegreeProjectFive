@@ -1,0 +1,11 @@
+.parent {
+  @include flex($just: center);
+}
+
+.col-1 .col-2 .col-3 {
+  @include flex();
+
+  &:first-of-type {
+    margin-right: 2em;
+  }
+}
