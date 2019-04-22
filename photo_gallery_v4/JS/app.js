@@ -1,9 +1,9 @@
-// lightbox.option({
-//   resizeDuration: 200,
-//   fitImagesInViewport: true,
-//   wrapAround: true,
-//   maxWidth: 600
-// });
+lightbox.option({
+  resizeDuration: 200,
+  fitImagesInViewport: true,
+  wrapAround: true,
+  maxWidth: 800
+});
 
 // This is jquery I can log what I write in the search and also loops through the captions and console log them
 // However I don't really understand whats going on I just sort of stumbled my way into this
