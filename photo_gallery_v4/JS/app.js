@@ -37,10 +37,10 @@ lightbox.option({
 
 // WHY DOES THIS NOT WORK ? always get undefined error  ---------------------------------
 
-// document.querySelectorAll(".search-bar").addEventListener("keyup", myFunction);
-
-// function myFunction() {
-//   let search = document.querySelectorAll(".search-bar");
-//   search.value = search.value.toLowerCase();
+// document.querySelectorAll(".search-bar").addEventListener("keyup", function() {
+//   let search = document
+//     .querySelectorAll(".search-bar")
+//     .values()
+//     .toLowerCase();
 //   console.log(search);
-// }
+// });
