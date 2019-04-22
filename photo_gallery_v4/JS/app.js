@@ -2,7 +2,7 @@ lightbox.option({
   resizeDuration: 200,
   fitImagesInViewport: true,
   wrapAround: true,
-  maxWidth: 800
+  maxWidth: 700
 });
 
 // This is jquery I can log what I write in the search and also loops through the captions and console log them

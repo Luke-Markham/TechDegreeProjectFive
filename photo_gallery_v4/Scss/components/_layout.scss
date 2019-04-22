@@ -7,6 +7,9 @@
   max-width: 1250px;
 }
 
+// .col-1 .col-2 .col-3 {
+//   @include flex();
+// }
 .lb-image {
   padding: 0;
   min-height: 70%;
@@ -15,8 +18,4 @@
 .lb-dataContainer {
   max-width: 600px;
   margin-top: 2.5em;
-}
-
-.searchHead {
-  @include flex($just: center);
 }

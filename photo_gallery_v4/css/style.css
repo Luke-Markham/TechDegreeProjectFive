@@ -350,7 +350,7 @@ template {
 .lb-nav a.lb-next {
   opacity: 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 930px) {
   .lb-nav a.lb-next {
     transform: translateX(30%);
     width: 50%;
@@ -361,7 +361,7 @@ template {
 .lb-nav a.lb-prev {
   opacity: 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 930px) {
   .lb-nav a.lb-prev {
     transform: translateX(-30%);
     width: 50%;
@@ -390,11 +390,6 @@ template {
   margin-top: 2.5em;
 }
 
-.searchHead {
-  display: flex;
-  justify-content: center;
-}
-
 .search-bar {
   margin: 1.75em 0em 0.5em;
   padding: 0.75em 0;
@@ -402,7 +397,7 @@ template {
   border: 2px solid gainsboro;
   border-radius: 5px;
   text-indent: 0.75em;
-  min-width: 35%;
+  width: 42%;
   font-size: 1em;
 }
 
