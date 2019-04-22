@@ -1,6 +1,9 @@
 .lb-nav a.lb-next {
   opacity: 0;
-
+  background-size: 30px;
+  @include mq(small) {
+    background-size: 50px;
+  }
   @include mq(large) {
     transform: translateX(30%);
     width: 50%;
@@ -10,7 +13,10 @@
 
 .lb-nav a.lb-prev {
   opacity: 0;
-
+  background-size: 30px;
+  @include mq(small) {
+    background-size: 50px;
+  }
   @include mq(large) {
     transform: translateX(-30%);
     width: 50%;
