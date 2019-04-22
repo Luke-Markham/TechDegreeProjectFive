@@ -1,11 +1,21 @@
 .parent {
   @include flex($just: center);
+  margin-bottom: 2.5em;
 }
 
-.col-1 .col-2 .col-3 {
-  @include flex();
+.main-content {
+  max-width: 1250px;
+}
 
-  &:first-of-type {
-    margin-right: 2em;
-  }
+// .col-1 .col-2 .col-3 {
+//   @include flex();
+// }
+.lb-image {
+  padding: 0;
+  min-height: 70%;
+  height: 43.75%;
+}
+.lb-dataContainer {
+  max-width: 600px;
+  margin-top: 2.5em;
 }

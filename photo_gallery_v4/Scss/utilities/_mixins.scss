@@ -1,3 +1,5 @@
+// FlexBox Mixin-----
+
 @mixin flex(
   $disp: flex,
   $dir: null,
@@ -15,4 +17,20 @@
   align-content: $align-c;
   flex-basis: $flex-b;
   @content;
+}
+// Media Query Mixin-----
+@mixin mq($break) {
+  @if $break == "small" {
+    @media (min-width: $brk-s) {
+      @content;
+    }
+  } @else if $break == "medium" {
+    @media (min-width: $brk-m) {
+      @content;
+    }
+  } @else if $break == "large" {
+    @media (min-width: $brk-l) {
+      @content;
+    }
+  }
 }

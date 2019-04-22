@@ -1,0 +1,19 @@
+.lb-nav a.lb-next {
+  opacity: 0;
+
+  @include mq(large) {
+    transform: translateX(30%);
+    width: 50%;
+    opacity: 0.5;
+  }
+}
+
+.lb-nav a.lb-prev {
+  opacity: 0;
+
+  @include mq(large) {
+    transform: translateX(-30%);
+    width: 50%;
+    opacity: 0.5;
+  }
+}
