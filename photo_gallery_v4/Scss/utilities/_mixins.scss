@@ -32,5 +32,9 @@
     @media (min-width: $brk-l) {
       @content;
     }
+  } @else if $break == "xLarge" {
+    @media (min-width: $brk-xl) {
+      @content;
+    }
   }
 }

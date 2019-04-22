@@ -397,29 +397,8 @@ template {
   border: 2px solid gainsboro;
   border-radius: 5px;
   text-indent: 0.75em;
+  width: 100%;
   font-size: 1em;
-  width: 70%;
-  max-width: 650px;
-}
-@media (min-width: 665px) {
-  .search-bar {
-    width: 60%;
-  }
-}
-@media (min-width: 862px) {
-  .search-bar {
-    width: 55%;
-  }
-}
-@media (min-width: 930px) {
-  .search-bar {
-    width: 50%;
-  }
-}
-@media (min-width: 1154px) {
-  .search-bar {
-    width: 45%;
-  }
 }
 
 .lb-data .lb-caption {

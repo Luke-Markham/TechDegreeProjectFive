@@ -5,6 +5,20 @@
   border: 2px solid gainsboro;
   border-radius: 5px;
   text-indent: 0.75em;
-  width: 42%;
   font-size: 1em;
+  width: 70%;
+  max-width: 650px;
+  @include mq(small) {
+    width: 60%;
+  }
+
+  @include mq(medium) {
+    width: 55%;
+  }
+  @include mq(large) {
+    width: 50%;
+  }
+  @include mq(xLarge) {
+    width: 45%;
+  }
 }
